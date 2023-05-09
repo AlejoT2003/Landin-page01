@@ -43,3 +43,81 @@ header {
     font-weight: 500;
 
 }
+main {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    width: 100%;
+
+}
+#hero {
+    margin-top: 65px;
+    padding: 70px 0px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+}
+.hero-info h1 {
+    font-size: 50px;
+    min-width: 500px;
+    font-weight: 800;
+    color: aliceblue;
+}
+.hero-info p {
+    font-size: 1rem;
+    width: 70%;
+    color: azure;
+}
+.hero-info p > span {
+    font-weight: 800;
+}
+.hero-info a {
+    color: aliceblue;
+    background: black;
+    width: 50%;
+    padding: 8px 8px;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+.hero-card {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#about {
+    padding: 70px 0px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+}
+#about h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+.info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infocard{
+    color: aliceblue;
+    width: 50%;
+    padding: 8px 8px;
+    font-size: 16px;
+    text-align: center;
+}
